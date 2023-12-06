@@ -1,0 +1,31 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    color: white;
+}
+#navbar{
+    height: 60px;
+    background-color: #0f1111;
+}
+button{
+    background-color: #f08004;
+    font-size: 15px;
+}
+#logo {
+    font-size: 35px;
+    margin-right: 400px;
+    
+}
+a{
+    margin-right: 200px;
+    font-size: 20px;
+    
+}
+#seal{
+    border-style: solid;
+    border-color: orangered;
+    
+}
+input{
+    font-size: 15px;
+}

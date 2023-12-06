@@ -1,0 +1,11 @@
+div{
+    height: 300px;
+    width: 300px;
+    background-color: aqua;
+    transition: 1s ease-in-out;
+}
+div:hover{
+    transform: rotate(360deg);
+    /* transform: scale(1.25);
+    transform: skew(20deg 5deg); */
+}

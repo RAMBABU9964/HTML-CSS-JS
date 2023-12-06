@@ -1,0 +1,17 @@
+body{
+    background-image: url('../paradisebiryani.avif');
+    background-size: cover;
+}
+div{
+    height: 300px;
+    width: 500px;
+    border-top: 3px dotted blue;
+    border-bottom: 1px solid green;
+    border-right: 5px dashed yellow;
+    border-left: 2px dashed red;
+    background-color: aquamarine;
+}
+p{
+    font-size: 25px;
+    font-weight: bold;
+}

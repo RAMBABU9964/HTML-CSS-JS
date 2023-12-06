@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Form Page</title>
+    <style>
+      .form{
+        width: 300px auto;
+        height: 800px auto;
+        border: 0.2px solid rgba(0, 0, 0, 0);
+        display: flex;
+        justify-content: center;
+        margin-top: 2px;
+        background-color: rgba(0, 0, 0, 0.255);
+        color: rgb(17, 4, 4);
+      }
+      #but{
+        margin-top: 3px;
+        width: 90px;
+      }
+    </style>
+    bu
+</head>
+<body>
+    <h1>Form Page</h1><hr>
+<div class="form">
+        <form action="#">
+          <table>
+   <tr>
+         <td> <label >Name:</label></td>
+        <td> <input type="text" placeholder="Enter your full name" name="full-name" pattern="[A-Z][a-z]*"></td>
+        </tr>
+    <tr>
+        <td> <label for="password">Password:</label></td>
+         <td> <input type="password" placeholder="password"  pattern="[A-Z][a-z]*" required></td>
+    </tr>
+    <tr>
+     <td> <label >Dob:</label></td>
+      <td><input type="date" name="dob-date"></td>
+    </tr>
+    <tr>
+       <td><label >Time:</label></td>
+       <td> <input type="time" name="dob-time"></td>
+   </tr>
+   <tr>
+      <td><label >range:</label></td>
+      <td><input type="range" name="range"></td>
+    </tr>
+    <tr>
+      <td><label >Age:</label></td>
+      <td><input type="number" name="age" min="21" max="50"></td>
+    </tr>
+    <tr>
+     <td><label >Color:</label></td>
+     <td><input type="color" name="color"></td>
+    </tr>
+    <tr>
+      <td><select name="State :">
+        <option>Karnataka</option>
+        <option>Telangena</option>
+        <option>Delhi</option>
+        <option>Goa</option>
+        <option>Kerala</option>
+        <option>Mumbai</option>
+      </select></td>
+    </tr>
+    <br>
+    <tr>
+     <td><input id="but" style="background-color: black; color: white; position: absolute 10px;" type="submit"></td>
+    </tr>
+    </table>
+    </form>
+</div>
+</body>
+</html>

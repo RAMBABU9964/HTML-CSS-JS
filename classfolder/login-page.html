@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Registration Form</title>
+    <link rel="stylesheet" href="login-page.css" type="text/css">
+</head>
+<body>
+    <div class="container">
+        <h2>Student Registration Form</h2>
+        <form action="submit.php" method="post" enctype="multipart/form-data">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="roll_number">Roll Number:</label>
+            <input type="text" id="roll_number" name="roll_number" required>
+
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" required>
+
+            <label for="phone_number">Phone Number:</label>
+            <input type="text" id="phone_number" name="phone_number" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="gender">Gender:</label>
+            <select id="gender" name="gender">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select>
+
+            <label for="address">Address:</label>
+            <textarea id="address" name="address" rows="3"></textarea>
+
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required>
+
+            <label for="college_name">College Name:</label>
+            <input type="text" id="college_name" name="college_name" required>
+
+            <label for="engineering_branch">Engineering Branch:</label>
+           <select name="Branch" id="Branch">
+            <option value="Mechanical">Mechanical</option>
+            <option value="EEE">Electrical</option>
+            <option value="CSE">Computer Science</option>
+            <option value="Civil">Civil</option>
+            <option value="Agricultural">Agricultural</option>
+           </select>
+
+            <label for="year_of_joining">Year of Joining:</label>
+            <input type="number" id="year_of_joining" name="year_of_joining" required>
+
+            <label for="year_of_passing">Year of Passing:</label>
+            <input type="number" id="year_of_passing" name="year_of_passing" required>
+
+            <label for="section">Section:</label>
+           <select name="Section" id="Section">
+            <option value="select">select</option>
+            <option value="select">A</option>
+            <option value="select">B</option>
+            <option value="select">C</option>
+            <option value="select">D</option>
+           </select>
+
+            <label for="profile_photo">Uplode Photo:</label>
+            <input type="file" id="profile_photo" name="profile_photo" accept="image/*" required>
+
+            <input type="submit" value="Register">
+        </form>
+    </div>
+</body>
+</html>

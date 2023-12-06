@@ -1,0 +1,82 @@
+/*parent's */
+/* #box1{
+    height: 100px;
+    width: 200px;
+    background-color: green;
+    font-size: 10px;
+} */
+/*chid's*/
+/*#box2{
+     height: 50px;
+    width: 50px;
+    background-color: yellow;
+   margin-left: 20%;
+   font-size: 2em; 2 times of parent's font size 
+   width: 5em;     "em" commande 
+   vh: relative to 1% viewport height, vw:relative to 1% viewport width
+}*/
+ 
+/*#box1{
+    background-color: red;
+    position: static;
+}
+#box2{
+    background-color: green;
+    position: relative;
+    top: 20px;
+    left: 10px;
+}
+#box3{
+    background-color: black;
+    color: white;
+    /* position: absolute; 
+    position: sticky;
+    top: 0px;
+    left: 20px;
+}
+#box4{
+    position: fixed;
+     right: 10px; 
+    top: 0;
+   
+} */
+/* #box1{
+    background-image: url("cat_photo.jpg");
+     background-size: cover;
+} */
+body{
+    text-align: center;
+}
+div{
+    height: 100px;
+    width:100px;
+    border: 2px solid black;
+    display: inline-block;
+}
+#container{
+    width: 600px;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* align-items: center;
+    align-content: center; */
+}
+#box1{
+
+} 
+#box2{
+    height: 200px;
+
+} 
+#box3{
+    height: 75px;
+
+} 
+#box4{
+
+} 
+#box5{
+
+} 

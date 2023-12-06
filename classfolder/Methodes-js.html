@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Functions in JS</title>
+    <script>
+        function greet(){
+           alert("good morning");
+           console.log("good morning");
+        }
+        function getPI(){
+            return 3.14;
+        }
+        function getPIValue(){
+            let pi=getPI();
+            alert(pi);
+            console.log(pi);
+        }
+        function getSquare(a){
+              alert(a*a);
+              console.log(a*a);
+        }
+        function findSum(a,b){
+              let sum=calSum(a,b);
+              alert(sum);
+              console.log(sum);
+        }
+        function calSum(a,b){
+            return a+b;
+        }
+    </script>
+</head>
+<body>
+    <button type="button" onclick="greet()">greet()</button>
+    <br>
+    <button type="button" onclick="getPIValue()">getPIValue()</button>
+    <br>
+    <button type="button" onclick="getSquare(5)">getSquare(5)</button>
+    <br>
+    <button type="button" onclick="findSum(5,10)">findSum(5,10)</button>
+</body>
+</html>

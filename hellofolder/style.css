@@ -1,0 +1,81 @@
+h3{
+    color: black;
+    width: 10;
+    height: 10;
+    text-align: center;
+    background-color: red;
+    border-style: dashed;
+    border-color: green;
+}
+body{
+    background-color: #822F4B;
+    align-items: center;
+    justify-content: right;
+}
+.container {
+    background-color:pink;
+    
+    border-radius: 80px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    
+}
+#one{
+font-size: 30px;
+text-transform: uppercase;
+}
+div{
+    background-color: pink;
+    display: inline;
+} */
+#a{
+    background-color: rgba(0, 0, 255, 0.3);
+}
+#b{
+    background-color: rgba(0, 0, 255, 0.5);
+}
+#c{
+    background-color: rgba(0, 0, 255, 0.7);
+     display: none;
+    visibility: hidden; 
+}
+/* div{
+    height: 100px;
+    width: 100px;
+    margin: 25px;
+    padding: 25px;
+    display: inline-block;
+   
+} */ 
+/* *{
+    padding: 0px;
+    margin: 0px;
+    color: white;
+}
+#navbar{
+    height: 60px;
+    background-color: #0f1111;
+}
+button{
+    background-color: #f08004;
+   color: white;
+}
+#logo {
+    font-size: 25px;
+    margin-left: 2px;
+    color: #f08004;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+    margin-left: 200px;
+}
+input{
+    margin-left: 200px;
+}
+.contentbox{
+height: 100px;
+width: 100px;
+} */
